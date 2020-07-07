@@ -1,0 +1,146 @@
+body {
+    /* overflow:hidden; */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.header {
+    height: 15vh;
+    background-color: rgb(5, 5, 83);
+}
+.header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.links {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar {
+    background-color: blueviolet;
+    width: 15vw;
+}
+.boxes {
+    display:flex;
+    flex-direction: column;
+    
+}
+#datum {
+    color:rgb(5, 5, 85);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box1{
+    
+    transform: translateY(600%);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 55vw;
+    height: 15vh;
+    background-color: rgb(161, 194, 207);
+}
+.box2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 55vw;
+    height: 13vh;
+    background-color: rgb(112, 202, 153);
+}
+.box2 h4 {
+    color: rgb(114, 10, 10);
+    margin-top: .5rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box3{
+    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 55vw;
+    height: 13vh;
+    background-color: rgb(228, 158, 205);
+}
+.box3 h4 {
+    color: rgb(58, 6, 6);
+    text-align: center;
+    margin-top: .5rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box1 h4 {
+    color: rgb(114, 10, 10);
+    margin-top: .5rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box1 p {
+    margin-top: 0rem;
+    color: rgb(90, 77, 77);
+    font-size: smaller;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    word-wrap: break-word;
+}
+.box3 p {
+    margin-top: 1rem;
+    color: rgb(90, 77, 77);
+    font-size: smaller;
+    text-align: center;
+    word-wrap: break-word;
+}
+.footer {
+    height: 15vh;
+    background-color: blue;
+}
+.footer h3 {
+    color:white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+@media only screen and (max-width: 1350px) {
+    .box1{ 
+        height: 35vh;
+    }
+    .header h1 {
+        font-size: 30px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .box1{ 
+        height: 50vh;
+    }
+    .header h1 {
+        font-size: 20px;
+    }
+    .box3{ 
+        height: 15vh;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .box1{ 
+        height: 55vh;
+    }
+    .header h1 {
+        font-size: 15px;
+    }
+    .box3{ 
+        height: 20vh;
+    }
+  }
