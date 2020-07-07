@@ -135,12 +135,15 @@ body {
   }
   @media only screen and (max-width: 500px) {
     .box1{ 
-        height: 55vh;
+        height: 70vh;
     }
     .header h1 {
         font-size: 15px;
     }
+    .box2{ 
+        height: 30vh;
+    }
     .box3{ 
-        height: 20vh;
+        height: 30vh;
     }
   }
