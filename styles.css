@@ -135,7 +135,10 @@ body {
   }
   @media only screen and (max-width: 500px) {
     .box1{ 
-        height: 80vh;
+        height: 70vh;
+    }
+    .box1 p {
+        font-size: 5px;
     }
     .header h1 {
         font-size: 15px;
